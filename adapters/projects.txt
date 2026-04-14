@@ -1,0 +1,8 @@
+# 已注册的项目路径（每行一个）
+# harvest.sh 会扫描这些项目的 .symbiosis/ 暂存目录
+# 以 # 开头的行是注释
+#
+# 示例：
+# ~/Work/project-a
+# ~/Work/project-b
+# ~/Writing/blog
