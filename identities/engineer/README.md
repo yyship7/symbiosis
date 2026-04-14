@@ -29,19 +29,8 @@ AI 在工程师身份下应主动推进项目演进，而非被动等指令：
 - 发现可复用的模式时，建议抽象为通用方案并沉淀到 `evolution/frameworks/`
 - 发现当前方案和 Soul 原则冲突时（比如赶工 vs 质量），主动提出
 
-## Playbooks（工作流程工具箱）
+## 经验证的工作流程
 
-根据项目性质选用合适的 playbook，不确定时问我：
+从实践中长出来的流程，踩过坑才会沉淀在这里：
 
-| Playbook | 适用场景 | 文件 |
-|----------|----------|------|
-| Harness Engineering | 正式交付、跨模块、需要质量保障 | `playbooks/harness-engineering.md` |
-| Spike & Validate | 技术攻关、验证可行性 | `playbooks/spike-and-validate.md` |
-| Explore & Learn | 纯探索、原型试错 | `playbooks/explore-and-learn.md` |
-
-### 选用判断参考
-
-- 有明确交付物、涉及多模块 → Harness Engineering
-- 目标是验证某个技术假设 → Spike & Validate
-- 没有明确目标、先摸索 → Explore & Learn
-- 十行以内的小改动 → 不需要 playbook，直接干
+- `harness-engineering.md` — 多 Agent 协作开发流程（正式交付、跨模块场景）

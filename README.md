@@ -52,10 +52,7 @@ soul/                           ← 稳定的你
 identities/                     ← 你的角色
   engineer/                     ← 工程师
     README.md                   ← 通用工程原则
-    playbooks/                  ← 可选工作流程
-      harness-engineering.md    ← 正式交付：多 Agent 七阶段
-      spike-and-validate.md     ← 技术攻关：快速验证
-      explore-and-learn.md      ← 纯探索：自由试错
+    harness-engineering.md      ← 从实践中长出来的：多 Agent 七阶段
   writer.md                     ← 写作者
   learner.md                    ← 学习者
 
